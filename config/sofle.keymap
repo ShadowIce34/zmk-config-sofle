@@ -114,17 +114,3 @@
     };
 };
 
-#include <dt-bindings/zmk/trackball_pim447.h>
-
-/ {
-	keymap {
-		compatible = "zmk,keymap";
-
-		a_layer {
-			bindings = <&kp a
-				    &kp b
-				    &kp c
-				    &pim447_toggle>;
-		};
-	};
-};
