@@ -19,21 +19,6 @@
 
 
 / {
-	keymap {
-		compatible = "zmk,keymap";
-
-		a_layer {
-			bindings = <&kp a
-				    &kp b
-				    &kp c
-				    &pim447_toggle>;
-		};
-	};
-};
-
-
-
-/ {
     // Activate ADJUST layer by pressing raise and lower
 
     conditional_layers {
@@ -47,6 +32,12 @@
 
     keymap {
         compatible = "zmk,keymap";
+
+a_layer {
+			bindings = <&kp a
+				    &kp b
+				    &kp c
+				    &pim447_toggle>;
 
         default_layer {
             display-name = "default";
