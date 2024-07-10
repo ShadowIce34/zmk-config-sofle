@@ -15,8 +15,6 @@
 #define RAISE 2
 #define ADJUST 3
 
-&mmv { delay-ms = <0>; };
-
 / {
     // Activate ADJUST layer by pressing raise and lower
 
