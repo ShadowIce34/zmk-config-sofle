@@ -33,12 +33,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-a_layer {
-			bindings = <&kp a
-				    &kp b
-				    &kp c
-				    &pim447_toggle>;
-
         default_layer {
             display-name = "default";
 
