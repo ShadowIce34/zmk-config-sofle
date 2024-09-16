@@ -45,7 +45,7 @@
 &kp TAB           &kp Q   &kp W     &kp E   &kp R   &kp T                                     &kp Y          &kp U   &kp I            &kp O           &kp P     &kp LEFT_BRACKET
 &kp LEFT_CONTROL  &kp A   &kp S     &kp D   &kp F   &kp G                                     &kp H          &kp J   &kp K            &kp L           &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z   &kp X     &kp C   &kp V   &kp B         &kp C_MUTE    &none         &kp N          &kp M   &kp COMMA        &kp DOT         &kp FSLH  &kp RSHFT
-                          &kp LGUI  &mo 1   &mo 3   &kp LEFT_ALT  &kp SPACE     &kp KP_ENTER  &kp BACKSPACE  &tog 1  &rgb_ug RGB_OFF  &rgb_ug RGB_ON
+                          &kp LGUI  &mo 1   &mo 3   &kp LEFT_ALT  &kp SPACE     &kp KP_ENTER  &kp BACKSPACE  &tog 2  &rgb_ug RGB_OFF  &rgb_ug RGB_ON
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
